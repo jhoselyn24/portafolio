@@ -1,0 +1,109 @@
+header .navbar-header, header .navbar-nav, header .navbar-brand {
+  float: none;
+  text-align: center; }
+
+.navbar-nav li {
+  float: none;
+  display: inline-block;
+  text-align: center;
+  padding: 2px; }
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  padding: 2% 0;
+  color: white; }
+
+.navbar-shrink {
+  background-color: black;
+  border-color: black;
+  padding: 2% 0 0; }
+
+.navbar-brand {
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 3em; }
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+  color: white; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+  background: none;
+  padding: 2px;
+  margin: 13px; }
+
+#hero {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  height: 700px;
+  padding: 250px 0 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: color; }
+
+#aboutme {
+  height: 800px;
+  background-color: black;
+  padding: 100px 0; }
+  #aboutme .img-about {
+    border-radius: 100%;
+    width: 200px; }
+  #aboutme h1 {
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    color: white; }
+
+#skills {
+  height: 800px;
+  background-color: blue; }
+
+#portfolio {
+  height: 800px;
+  background-color: pink; }
+
+#contact {
+  height: 800px;
+  background-color: green; }
+
+.text-h1 {
+  color: white;
+  font-family: 'Sue Ellen Francisco';
+  text-transform: uppercase; }
+
+@media (max-width: 500px) {
+  .navbar-toggle {
+    margin-top: 0px; }
+
+  .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 7% 0; }
+
+  header .navbar-nav li {
+    position: relative;
+    display: block; }
+
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: white;
+    background: none;
+    border-bottom: none; }
+
+  .navbar-shrink {
+    background-color: black;
+    border-color: black;
+    padding: 7% 0 4%; } }
+@font-face {
+  font-family: LatoHeavy;
+  src: url(../fonts/LatoHeavy.ttf); }
+@font-face {
+  font-family: Latolight;
+  src: url(../fonts/Latolight.ttf); }
+@font-face {
+  font-family: DolceVita;
+  src: url(../fonts/DolceVita.ttf); }
+@font-face {
+  font-family: Neoteric-Bold;
+  src: url(../fonts/Neoteric-Bold.ttf); }
+body {
+  font-family: 'LatoHeavy'; }
+
+/*# sourceMappingURL=global.css.map */
